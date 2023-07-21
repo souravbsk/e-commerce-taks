@@ -3,7 +3,6 @@ const nextConfig = { images: {
       {
         protocol: 'https',
         hostname: 'i.dummyjson.com',
-
       },
     ],
   },}

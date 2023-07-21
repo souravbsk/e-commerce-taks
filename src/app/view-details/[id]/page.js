@@ -5,9 +5,6 @@ import React, { useEffect, useState } from "react";
 import "@smastrom/react-rating/style.css";
 import Magnifier from "react-magnifier";
 // import styles
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-zoom.css";
-import "lightgallery/css/lg-thumbnail.css";
 import Link from "next/link";
 
 // import plugins if you need
