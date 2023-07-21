@@ -68,7 +68,7 @@ const Header = () => {
               }
 
               </button>
-              <h2 className="font-bold text-lg">Logo</h2>
+            <Link href="/">  <h2 className="font-bold text-lg">BaZar.com</h2></Link>
             </div>
           </div>
           <div className="flex-1 hidden md:block">

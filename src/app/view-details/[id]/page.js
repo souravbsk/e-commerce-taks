@@ -3,7 +3,6 @@ import { Rating } from "@smastrom/react-rating";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import "@smastrom/react-rating/style.css";
-// import Magnifier from "react-magnifier";
 // import styles
 import Link from "next/link";
 
@@ -25,8 +24,7 @@ const ProductDetails = ({ params }) => {
       <section className="container">
         <div className="card mt-16 lg:card-side bg-base-100 shadow-xl">
           <div className="flex-1">
-            {/* <Magnifier mgShape={"square"} src={product?.thumbnail} /> */}
-
+            <Image src={product?.thumbnail} alt="product" width={100} height={100} className="w-full h-fit"></Image>
             <div className="flex overflow-x-scroll">
               {product?.images?.map((img, i) => (
                 <Image
