@@ -1,5 +1,5 @@
 'use client'
-import CategoryNav from "@/app/components/CategoryNav";
+import CategoryNav from "@/components/CategoryNav";
 import Link from "next/link";
 import React, { useState } from "react";
 import {

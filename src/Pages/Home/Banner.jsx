@@ -1,5 +1,5 @@
 "use client";
-import CategoryNav from "@/app/components/CategoryNav";
+import CategoryNav from "@/components/CategoryNav";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import image1 from "@/assets/banner/image1.jpg"

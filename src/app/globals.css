@@ -22,3 +22,14 @@
   justify-content: center;
   align-items: center;
 }
+
+.magnifier div{
+  width: 150 px!important;
+} 
+.magnifier-image{
+  width: 100% !important;
+}
+
+.magnifier {
+  /* Styles for <div> around image and magnifying glass */
+}

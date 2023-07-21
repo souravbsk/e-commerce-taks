@@ -20,7 +20,6 @@ const CategoryNav = () => {
                 categorys?.slice(0,8)?.map((category,i) => <li key={i}><Link className='text-sm' href="/">{category}</Link></li>)
             }
             
-          
         </ul>
     );
 };
