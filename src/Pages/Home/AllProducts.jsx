@@ -39,9 +39,7 @@ console.log(products);
                     </div>
                   </div>)
                 }
-
             </div>
-        
         </section>
     );
 };
